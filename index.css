@@ -1,0 +1,288 @@
+.main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(248, 243, 243);
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: orange;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.header .header-1 {
+    width: 20%;
+    height: 100%;
+    margin-right: 10px;
+    color: aliceblue;
+    text-align: right;
+    float: left;
+
+}
+
+.header .header-2 {
+    width: 15%;
+    height: 100%;
+    margin-left: 15px;
+    float: left;
+
+}
+
+.header .header-2 .anh {
+    width: 20%;
+    float: left;
+
+}
+
+.header .header-2 .content {
+    width: 80%;
+    float: left;
+
+
+}
+
+.header .header-3 {
+    width: 35%;
+    color: aliceblue;
+    height: 100%;
+    margin-left: 15px;
+    float: left;
+}
+
+.header .header-3 .header-menu-1 {
+    float: left;
+    margin-left: 10px;
+}
+
+.header .header-3 .header-menu-2 {
+    float: left;
+    margin-left: 40px;
+}
+
+.header .header-3 .header-menu-3 {
+    float: left;
+    margin-left: 40px;
+}
+
+.header .header-3 .header-menu-4 {
+    float: left;
+    margin-left: 40px;
+}
+
+.header .header-3 .header-menu-5 {
+    float: left;
+    margin-left: 40px;
+}
+
+.header .header-4 {
+    width: 25%;
+    height: 100%;
+    margin-left: 20px;
+    float: left;
+
+}
+
+
+
+.header .header-4 .header-user {
+    font-size: 40px;
+    float: left;
+
+}
+
+.header .header-4 .header-user2 {
+    font-size: 40px;
+    float: left;
+    margin-left: 40px;
+}
+
+.body {
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.body .body-2 {
+    margin-left: 80px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+
+.body .body-2 .body-item {
+    width: 10%;
+    height: 70px;
+    text-align: center;
+}
+
+.body .body-2 .body-item .anh {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 2%;
+    height: 40px;
+    display: flex;
+}
+
+.container-sanpham {
+    margin-top: 3%;
+    margin-left: 13%;
+    width: 82%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container-sanpham .container-sanpham-web {
+    width: 18%;
+    height: 320px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.container-sanpham-web-text {
+    margin-left: 5%;
+    font-weight: 500;
+    position: relative;
+}
+
+.container-sanpham-web-logo {
+    position: absolute;
+    bottom: -10%;
+    left: 80%;
+
+}
+
+.container-tintuc {
+    width: 82%;
+    margin-left: 13%;
+    height: 450px;
+    position: relative;
+}
+
+.container-tintuc .container-tintuc-web {
+    width: 24%;
+    height: 300px;
+    padding: 20px;
+    margin-left: 11px;
+    border-radius:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    float: left;
+    background-color: white;
+    
+}
+.container-tintuc-text{
+    font-weight: 500;
+    position:absolute;
+    margin-top: 15%; 
+}
+.button-tintuc{
+    position:absolute;
+    margin-top: 18%;
+    margin-left: 13%;
+}
+
+.footer {
+    width: 100%;
+    height: 700px;
+    background-color: rgb(222, 130, 31);
+    position: relative;
+}
+
+.footer .footer1 {
+    position: absolute;
+    top: 180px;
+    margin-left: 900px;
+
+}
+
+
+.footer .footer2 {
+    position: absolute;
+    top: 300px;
+    margin-left: 100px;
+
+}
+
+.footer .footer3 {
+    position: absolute;
+    top: 450px;
+    margin-left: 250px;
+
+}
+
+.footer .footer4 {
+    position: absolute;
+    top: 450px;
+    margin-left: 360px;
+
+}
+
+.footer .footer5 {
+    width: 35%;
+    position: absolute;
+    top: 300px;
+    margin-left: 200px;
+}
+.footer-end{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to right, #545151, #0b0a0a);
+    position: relative;
+}
+.footer-end .anh{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+.footer-end-text1{
+    width: 15%;
+    position: absolute;
+    margin-left: 30%;
+    margin-bottom: 20%;
+    margin-top: 2%;
+}
+.footer-end-text2{
+    width: 15%;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 2%;
+}
+.footer-end-text3{
+    width: 15%;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 2%;
+}
+.footer-end-text4{
+    width: 15%;
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 2%;
+}
+.footer-end-2{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.footer-end-2-text{
+    margin-left: 21%;
+    position: absolute;
+    margin-top: 1%;
+}
+.anhcuoitrangweb{
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 4%;
+}
